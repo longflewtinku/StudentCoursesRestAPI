@@ -17,7 +17,7 @@ services:
     depends_on:
       - students-db
   students-db:
-    image: mysql:5.6
+    image: mysql:8.6
     networks:
       - students-private-net
     environment:
